@@ -1,38 +1,44 @@
 .App {
-  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: url("https://w0.peakpx.com/wallpaper/143/818/HD-wallpaper-nature-nature.jpg");
+ min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+ display: flex;
+height: 20px;
+border-radius: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contacTitle{
+  text-transform: uppercase;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainDiv{
+  margin-top: 100px;
+border: 2px solid rgb(255, 255, 255);
+width: 300px;
+border-radius: 10px;
+backdrop-filter:blur(1.9px) ;
 }
-
-.App-link {
-  color: #61dafb;
+.secondDiv{
+  padding: 60px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  border-radius: 10px;
+  width: 80px;
+  margin-left: 50px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
+label{
+  color: rgb(66, 240, 13);
+  font-weight: 800;
+}
+h1{
+  margin-left:60px;
+  color: rgb(255, 255, 255);
 }
