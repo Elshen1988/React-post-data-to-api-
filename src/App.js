@@ -57,7 +57,7 @@ fetch('https://northwind.vercel.app/api/suppliers',{
         <input required  onChange={(e) => e.target.value.includes(" ")?setCity("empty"): setData({...data,adress:{city:e.target.value}})&setCity("")&setCheck2(true) } type="text" id="city"  />
         <p>{city}</p>
         <label htmlFor="country">Country:</label>
-        <input required onChange={(e) => e.target.value.includes(" ")?setCountry("empty"): setData({...data,adress:{...data.adress,country:e.target.value}})&setCity("")&setCheck3(true) } type="text" id="country" /><br /><br />
+        <input required onChange={(e) => e.target.value.includes(" ")?setCountry("empty"): setData({...data,adress:{...data.adress,country:e.target.value}})&setCity("")&setCheck3(true) } type="text" id="country" />
         <p>{country}</p>
         <button onClick={(e)=>postData()}>Send</button>
       </form>
