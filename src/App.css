@@ -4,11 +4,13 @@
  align-items: center;
  background: url("https://w0.peakpx.com/wallpaper/143/818/HD-wallpaper-nature-nature.jpg");
  min-height: 100vh;
+
 }
 input{
  display: flex;
 height: 20px;
 border-radius: 10px;
+width: 250px;
 }
 .contacTitle{
   text-transform: uppercase;
@@ -21,12 +23,12 @@ border-radius: 10px;
 backdrop-filter:blur(1.9px) ;
 }
 .secondDiv{
-  padding: 60px;
+  padding: 30px;
 }
 button{
   border-radius: 10px;
   width: 80px;
-  margin-left: 50px;
+  margin-left: 80px;
   background: transparent;
   color: rgb(255, 255, 255);
   font-size: 25px;
@@ -47,4 +49,19 @@ p{
   position: relative;
   bottom: 15px;
   font-weight: 800;
+}
+
+table{
+  color: white;
+  margin-left: 10px;
+}
+.getDAta{
+  position: relative;
+  top: -20px;
+  right: -30px;
+}
+.tablediv{
+  position: relative;
+  left: 1200px;
+  transition: 2s;
 }
